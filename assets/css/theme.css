@@ -8,7 +8,7 @@
  */
 
 :root {
-  --primary: rgb(193 151 237);
+  --primary: rgb(183, 51, 139);
   --accent: #FF3D85;
   --secondary: #4E5AFE;
   --warning: #EED818;
@@ -28,13 +28,13 @@ body {
 }
 
 a {
-  color: rgb(193 151 237);
+  color: rgb(183, 51, 139);
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: rgb(193 151 237);
+  color: rgb(183, 51, 139);
   text-decoration: underline;
 }
 
@@ -61,11 +61,11 @@ a:hover {
 
 /* Color systems */
 .bg-primary {
-  background-color: rgb(193 151 237) !important;
+  background-color: rgb(183, 51, 139) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus {
-  background-color: rgb(193 151 237) !important;
+  background-color: rgb(183, 51, 139) !important;
 }
 
 .bg-accent {
@@ -141,11 +141,11 @@ a.bg-dark:hover, a.bg-dark:focus {
 }
 
 .text-primary {
-  color: rgb(193 151 237) !important;
+  color: rgb(183, 51, 139) !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: rgb(193 151 237) !important;
+  color: rgb(183, 51, 139) !important;
 }
 
 .text-accent {
@@ -226,7 +226,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 
 .border-primary {
-  border-color: rgb(193 151 237) !important;
+  border-color: rgb(183, 51, 139) !important;
 }
 
 .border-secondary {
@@ -238,7 +238,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .border-info {
-  border-color: rgb(193 151 237) !important;
+  border-color: rgb(183, 51, 139) !important;
 }
 
 .border-warning {
@@ -264,21 +264,21 @@ a.text-dark:hover, a.text-dark:focus {
 /* Buttons */
 .btn-primary {
   color: #fff;
-  background-color: rgb(193 151 237) !important;
+  background-color: rgb(183, 51, 139) !important;
   border-color: transparent !important;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: rgb(193 151 237);
+  background-color: rgb(183, 51, 139);
   border-color: transparent;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: rgb(193 151 237);
-  border-color: rgb(193 151 237);
+  background-color: rgb(183, 51, 139);
+  border-color: rgb(183, 51, 139);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -519,14 +519,14 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-outline-primary {
-  color: rgb(193 151 237);
-  border-color: rgb(193 151 237);
+  color: rgb(183, 51, 139);
+  border-color: rgb(183, 51, 139);
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: rgb(193 151 237);
-  border-color: rgb(193 151 237);
+  background-color: rgb(183, 51, 139);
+  border-color: rgb(183, 51, 139);
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -534,15 +534,15 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: rgb(193 151 237);
+  color: rgb(183, 51, 139);
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: rgb(193 151 237);
-  border-color: rgb(193 151 237);
+  background-color: rgb(183, 51, 139);
+  border-color: rgb(183, 51, 139);
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -935,7 +935,7 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
   font-weight: 500;
-  color: rgb(193 151 237);
+  color: rgb(183, 51, 139);
 }
 
 
@@ -1027,8 +1027,8 @@ a.text-dark:hover, a.text-dark:focus {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: rgb(193 151 237);
-  border-color: rgb(193 151 237);
+  background-color: rgb(183, 51, 139);
+  border-color: rgb(183, 51, 139);
 }
 
 .page-item.disabled .page-link {
@@ -1173,7 +1173,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .back-to-top:hover {
-  background: rgb(193 151 237);
+  background: rgb(183, 51, 139);
 }
 
 .back-to-top:hover::after {
@@ -1862,7 +1862,7 @@ a.text-dark:hover, a.text-dark:focus {
     height: 100%;
     overflow: hidden;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-    background: rgba(213, 157, 235, 0.9);
+    background: rgb(183, 51, 139);
     transform-style: preserve-3d;
     transition: 0.5s;
     backface-visibility: hidden;
@@ -2452,7 +2452,7 @@ a, a:hover {
 }
 
 .content-container h4 {
-  color: #7f3f98;
+  color: rgb(183, 51, 139);
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -2471,7 +2471,7 @@ a, a:hover {
 }
 
 .cta-container {
-  background-color: #7f3f98;
+  background-color: rgb(183, 51, 139);
   color: #fff;
   padding: 40px;
   text-align: center;
